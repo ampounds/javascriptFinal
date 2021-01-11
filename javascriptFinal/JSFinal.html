@@ -1,0 +1,171 @@
+<!-- Audrey Pounds 05/14/19 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>JavaScript Final</title>
+    <link rel="stylesheet" href="JSFinal.css">
+</head>
+	<div>
+		<body>
+			<div id="outerwrapper">
+				<header>
+					<h1>AMP's Awesome JavaScript Quiz</h1>
+				</header>
+				<main>
+					<ol>
+						<li> <!-- QUESTION 1 -->
+							<p>What is JavaScript?</p>
+							<ol>
+								<li><input type="radio" name="q1" id="a1">A scripting language used with html and css.</li>
+								<li><input type="radio" name="q1">The same as Java.</li>
+								<li><input type="radio" name="q1">A subset of Java.</li>
+							</ol>
+							<button id="b1">Submit</button>
+						</li>
+						<li> <!-- QUESTION 2 -->
+							<p>Let's do some math!!!</p>
+							<ol>
+								<li>
+									<p>Add numbers!</p>
+									<label for="n1">Num 1: </label><input type="number" id="n1">
+									&nbsp;
+									<label for="n2">Num 2: </label><input type="number" id="n2"><br>
+									<button id="b2.1">Add!</button>
+									<p id="a2.1">The answer is:</p>
+								</li>
+								<li>
+									<p>Subtract numbers!</p>
+									<label for="n3">Num 3: </label><input type="number" id="n3">
+									&nbsp;
+									<label for="n4">Num 4: </label><input type="number" id="n4"><br>
+									<button id="b2.2">Subtract!</button>
+									<p id="a2.2">The answer is:</p>
+								</li>
+								<li>
+									<p>Multiply numbers!</p>
+									<label for="n5">Num 5: </label><input type="number" id="n5">
+									&nbsp;
+									<label for="n6">Num 6: </label><input type="number" id="n6"><br>
+									<button id="b2.3">Multiply!</button>
+									<p id="a2.3">The answer is:</p>
+								</li>
+								<li>
+									<p>Divide numbers!</p>
+									<label for="n7">Num 7: </label><input type="number" id="n7">
+									&nbsp;
+									<label for="n8">Num 8: </label><input type="number" id="n8"><br>
+									<button id="b2.4">Divide!</button>
+									<p id="a2.4">The answer is:</p>
+								</li>
+								<li>
+									<p>Calculate the remainder of a number!</p>
+									<label for="n9">Num 9: </label><input type="number" id="n9">
+									&nbsp;
+									<label for="n10">Num 10: </label><input type="number" id="n10"><br>
+									<button id="b2.5">Calculate!</button>
+									<p id="a2.5">The answer is:</p>
+								</li>
+							</ol>
+						</li>
+						<li> <!-- QUESTION 3 -->
+							<p>Determine the greatest number!</p>
+							<label for="n11">Num 11: </label><input type="number" id="n11">
+							&nbsp;
+							<label for="n12">Num 12: </label><input type="number" id="n12"><br>
+							<button id="b3">Determine!</button>
+							<p id="a3">The answer is:</p>
+						</li>
+						<li> <!-- QUESTION 4 -->
+							<p>Insert a number to multiply 3 times (x^3).</p>
+							<label for="n13">Num 13: </label><input type="number" id="n13"><br>
+							<button id="b4">Cube it!</button>
+							<p id="a4">The answer is:</p>
+						</li>
+						<li> <!-- QUESTION 5 -->
+							<p>The answer to life, the universe, and everything is: </p>
+							<ol>
+								<li><input type="radio" name="q5">24</li>
+								<li><input type="radio" name="q5" id="a5">42</li>
+							</ol>
+							<button id="b5">Submit</button>							
+						</li>
+						<li> <!-- QUESTION 6 -->
+							<p>Insert a word to find out how many vowels and consonants there are in that word.</p>
+							<label for="s1">Word: </label><input type="string" id="s1"><br>
+							<button id="b6">Calculate!</button>
+							<p id="a6">The answer is:</p>
+						</li>
+						<li> <!-- QUESTION 7 -->
+							<p>Click 'Start' to see a slideshow of me with several known celebrities. Don't feel jealous!</p>
+							<div id="slideshow">
+								<ul id="image_list2">
+									<li><a href="Images/1capjack.png" title="John Barrowman from 'Doctor Who' and 'Arrow'."></a></li>
+									<li><a href="Images/2donna.png" title="Catherine Tate from 'Doctor Who'."></a></li>
+									<li><a href="Images/3aquaman.png" title="Jason Momoa from 'Aquaman'."></a></li>
+									<li><a href="Images/4neville.png" title="Matthew Lewis from 'Harry Potter'."></a></li>
+									<li><a href="Images/5crowley.png" title="Mark Sheppard from 'Supernatural'."></a></li>
+									<li><a href="Images/6tudyk.png" title="Alan Tudyk from 'Firefly's Serenity', 'Frozen', and 'Rogue One'."></a></li>
+									<li><a href="Images/7gunn.png" title="Sean Gunn from 'Guardians of the Galaxy'."></a></li>
+									<li><a href="Images/8ten.png" title="David Tennant from 'Doctor Who', 'HP4: Goblet if Fire', and 'Jessica Jones'."></a></li>
+									<li><a href="Images/9elwes.png" title="Cary Elwes from 'Princess Bride'."></a></li>
+									<li><a href="Images/10weasley.png" title="James and Oliver Phelps from 'Harry Potter'."></a></li>
+									<li><a href="Images/11shatner.png" title="William Shatner from 'Star Trek'."></a></li>
+									<li><a href="Images/12inconceivable.png" title="Wallace Shawn from 'Princess Bride' and 'Young Sheldon'."></a></li>
+								</ul>
+								<p>
+									<input type="button" id="start" value="Start">
+									<input type="button" id="pause" value="Pause" disabled="true">
+								</p>
+								<p><img src="Images/1capjack.png" title="John Barrowman from 'Doctor Who' and 'Arrow'." id="image"></p>
+								<h2 id="caption">John Barrowman from 'Doctor Who' and 'Arrow'.</h2>
+							</div>
+						</li>
+						<li> <!-- QUESTION 8 -->
+							<p>What is a TARDIS?</p>
+							<ol>
+								<li><input type="radio" name="q8">A time machine.</li>
+								<li><input type="radio" name="q8">A police box.</li>
+								<li><input type="radio" name="q8" id="a7">Both answers are correct.</li>
+							</ol>
+							<button id="b8" onclick="tardis()">Submit</button>	
+							<audio id="myAudio1">
+								<source src="soundfiles/exterminate.mp3" type="audio/mpeg">
+								Your browser does not support the audio element.
+							</audio>
+							<audio id="myAudio2">
+								<source src="soundfiles/doctortheme.mp3" type="audio/mpeg">
+								Your browser does not support the audio element.
+							</audio>
+						</li>
+						<li> <!-- QUESTION 9 -->
+							<p>Fill in the blanks of the Jedi Code. Type in all lower case letters and insert spaces where needed.</p>
+							
+							<label for="s2">There is no emotion, there is: </label><input type="string" id="s2"><br>
+							<label for="s3">There is no ignorance, there is: </label><input type="string" id="s3"><br>
+							<label for="s4">There is no passion, there is: </label><input type="string" id="s4"><br>
+							<label for="s5">There is no chaos, there is: </label><input type="string" id="s5"><br>
+							<label for="s6">There is no death, there is: </label><input type="string" id="s6"><br>	
+							<button id="b9">Submit</button>
+							<audio id="myAudio3">
+								<source src="soundfiles/jedi.mp3" type="audio/mpeg">
+								Your browser does not support the audio element.
+							</audio>
+							<audio id="myAudio4">
+								<source src="soundfiles/vader.mp3" type="audio/mpeg">
+								Your browser does not support the audio element.
+							</audio>
+						</li>
+					</ol>
+				</main>
+				<footer>
+					<p>Created @ JCCC WEB114 Final - Spring 2019</p>
+					<p>Johnson County Community College</p>
+				</footer>
+			</div>
+				 <script src="JSFinal.js"></script>
+		</body>
+	</div>
+</html>
